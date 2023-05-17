@@ -1,0 +1,16 @@
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  width: max-content;
+  transition: transform 0.3s ease-in-out;
+  touch-action: pan-y; /* 세로 스크롤 막기 */
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+}

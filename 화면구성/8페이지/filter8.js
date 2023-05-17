@@ -13,7 +13,7 @@ buttons.forEach((button) => {
 let nextButton = document.querySelector(".nextButton");
 
 nextButton.addEventListener("click", function () {
-  window.location.href = "";
+  window.location.href = "../9페이지/recommend.html";
 });
 
 
