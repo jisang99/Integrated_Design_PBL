@@ -1,0 +1,112 @@
+@import './reset.css';
+
+.filter-body{
+  /* border: 1px solid black; */
+  /* width:40%; */
+  height:100vh;
+  width:100vw;
+  margin: 0 auto;
+  position:relative;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+
+div.header{
+  /* border: 1px solid black; */
+  position: relative;
+  /* left:2rem; */
+  top:3.5rem;
+
+}
+
+div.headerUp{
+  position:relative;
+  bottom:10px;
+  left: 1.5rem
+}
+
+div.headerDown{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar-container {
+  width: 75%;
+  height: 1rem;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 87.5%; /* 초기 진행상황 */
+  background-color: #74DA50;
+  transition: width 0.3s ease; /* 애니메이션 효과를 위한 transition 추가 */
+  border-radius: 30px;
+}
+
+div.text{
+  position: relative;
+  /* border: 1px solid black; */
+  margin-top:3rem;
+  font-size: 1.5rem;
+  font-weight:bold;
+  width:70%;
+  margin-bottom:2.5rem;
+  text-align: left;
+  line-height: 2rem;
+}
+
+div.select{
+  margin-top : 3rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.selectButton{
+  border: 1px solid #D7D7D7;
+  width:70%;
+  height:2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  font-size: 1.7rem;
+  font-weight: lighter;
+  padding-top: 0.6rem;
+}
+
+div.nextButton{
+  /* position: relative; */
+  margin-top:3rem;
+  width:85%;
+  color:white;
+  font-weight: bold;
+  font-size:1.4rem;
+  padding-top: 1.2rem;
+  background-color: #74DA50;
+  position: fixed;
+  bottom:3%;
+}
+
+.selectButton:hover{
+  cursor:pointer;
+}
+
+.nextButton:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #74DA50;
+  color: white;
+}
+
+.preButton:hover{
+  cursor: pointer;
+}
