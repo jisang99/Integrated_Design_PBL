@@ -1,0 +1,57 @@
+@import './reset.css';
+
+body{
+  border: 1px solid black;
+  /* width:40%; */
+  height:100vh;
+  margin: 0 auto;
+  position:relative;
+}
+
+
+div.header{
+  border: 1px solid black;
+  margin-top:3.5rem;
+}
+
+div.text{
+  position: relative;
+  border: 1px solid black;
+  margin-top:3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  width:80%;
+  padding-left: 2.1rem;
+  bottom:1rem;
+}
+
+div.select{
+  margin-top : 3rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.selectButton{
+  border: 1px solid black;
+  width:70%;
+  height:2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+  font-size: 1.7rem;
+  padding-top: 0.6rem;
+}
+
+div.nextButton{
+  margin-top:3rem;
+  width:85%;
+  color:white;
+  font-weight: bold;
+  font-size:1.4rem;
+  padding-top: 1.2rem;
+  background-color: #74DA50;
+}
+
+
