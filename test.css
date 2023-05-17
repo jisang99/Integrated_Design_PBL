@@ -1,6 +1,8 @@
 .slider-container {
   overflow: hidden;
-  width: 100%;
+  width: 80%;
+  position: relative;
+  left:10%;
 }
 
 .slider {
